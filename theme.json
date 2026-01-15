@@ -1,0 +1,24 @@
+{
+    "id": "workspace-background-image",
+    "name": "Workspace Background Image",
+    "description": "Adds a background image to the workspace indicator",
+    "scripts": {
+      "workspace.uc.js": {
+        "include": [
+          "chrome://browser/content/browser.xhtml"
+        ]
+      }
+    },
+    "homepage": "https://github.com/Zylaah/zen-mods/tree/main/workspace-background-image",
+    "readme": "https://raw.githubusercontent.com/Zylaah/zen-mods/refs/heads/main/workspace-background-image/README.md",
+    "author": "Bxth",
+    "version": "1.0",
+    "tags": [
+      "Zen Browser",
+      "Workspace Background Image",
+      "Workspace Indicator"
+    ],
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "fork": ["zen"]
+  }
