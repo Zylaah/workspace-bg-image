@@ -132,8 +132,14 @@
              background-position: center !important;
              background-repeat: no-repeat !important;
              opacity: 0.2 !important;
-             box-shadow: inset 0 0 15px 2px rgba(0, 0, 0, 0.9) !important;
+             box-shadow: inset 0 0 15px 10px rgba(0, 0, 0, 0.9) !important;
            }
+		   
+		   html[zen-should-be-dark-mode="false"] {
+			   .zen-current-workspace-indicator[zen-workspace-id="${escapedId}"]::before {
+				   box-shadow: inset 0 0 15px 10px rgba(255, 255, 255, 0.2) !important;
+			   }
+		   }
          `);
       }
     }
